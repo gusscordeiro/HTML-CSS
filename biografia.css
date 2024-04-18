@@ -1,0 +1,96 @@
+@font-face {
+    font-family: haruzake;
+    src: url(./fonts/Harukaze.otf);
+}
+@font-face {
+    font-family: japanwave;
+    src: url(./fonts/Japan\ wave.ttf);
+}
+header{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #f9e3cb;
+    font-family: haruzake;
+    justify-content: center;
+}
+.box{
+    justify-content: space-around;
+}
+h1{
+    text-align: center;
+}
+body{
+    margin: auto;
+    margin-bottom: auto;
+}
+main{
+    margin: auto;
+}
+main>p{
+    text-indent: 2%;
+}
+.parallax{
+    margin: auto;
+    background-image: url("./images/wallpp.jpeg");
+    min-height: 500px;                                  
+    background-attachment: fixed;                      
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p{
+    margin: auto;
+}
+.div{
+    width: 800px; height: 600px; 
+    box-sizing: content-box;
+    padding: 3% 2.5%;
+    background-color: rgba(0, 0, 0);
+    filter: opacity(60%);
+    color: white;
+}
+.div>p{
+    text-indent: 2%;
+    text-align: justify;
+}
+#img1{
+    width: 100px;
+}
+#img2{
+    width: 100px;
+    text-align: end;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: auto;
+    overflow: hidden;
+    background-color: rgb(249,227,203)
+}
+ul{
+    list-style: none;
+    margin: auto;
+}
+ul.lista li:nth-child(odd){
+    font-style: italic;
+}
+ul.lista li:nth-child(even){
+    font-family: japanwave;
+}
+li{
+    display: inline;
+    padding: 150px;
+}
+a.button {
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: buttontext;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+}
+nav{
+    padding: 10px;
+    background-color: #f9e3cb;
+}

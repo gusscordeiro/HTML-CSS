@@ -1,0 +1,48 @@
+#legenda{
+    background-color: dimgrey;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#botao{
+    background-color: gray;
+    color: black;
+    border: solid white;
+}
+.campo input[type="text"], .campo input[type="email"], .campo input[type="number"], .campo textarea{
+    margin: 20px 0;
+    display: block;
+    width: 25%;
+}
+.campo textarea{
+    resize: none;
+}
+fieldset{
+    background-color: gray;
+}
+.campo {
+    color: white;
+}
+#legenda2{
+    color: white;
+}
+footer{
+    word-spacing: 150px;
+    margin: auto;
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(gray, lightgray);
+}
+a.button {
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: buttontext;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    box-shadow: 5px 5px 5px dimgray;
+}

@@ -1,0 +1,84 @@
+@font-face {
+    font-family: haruzake;
+    src: url(./fonts/Harukaze.otf);
+}
+body{
+    margin: auto;
+}
+header{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: darkgray;
+    background-image: linear-gradient(darkgray, lightgray);
+    font-family: haruzake;
+}
+footer{
+    word-spacing: 150px;
+    margin: auto;
+    padding: 10px;
+    overflow: hidden;
+    background-color: dimgrey;
+}
+section{
+    display: flex;
+    flex-direction: row;
+}
+main{
+    height: auto;
+    flex: 1;
+    background-image: linear-gradient(white, dimgrey);
+}
+.aside{
+    height: auto;
+    text-align: center;
+    border: solid 5px black;
+
+}
+h1{
+    text-align: center;
+    margin: auto;
+    margin-left: 25%;
+}
+#nav1{
+    margin: auto;
+    padding: 10px;
+    background-image: linear-gradient(gray,white);
+    display: flex;
+    justify-content: space-evenly;
+}
+#nav2{
+    margin: auto;
+    padding: 10px;
+    word-spacing: 200px;
+}
+#img1{
+    width: 25%;
+    align-items: baseline;
+    display: inline-block;
+}
+#img2{
+    width: 100px;
+    height: 40px;
+}
+h2{
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-family: haruzake;
+}
+#musashi{
+    width: 400px;
+    height: 600px;
+}
+a.button {
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: buttontext;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+}
+.p{
+    padding-bottom: 10px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML5.CSS" />
+    <link rel="stylesheet" href="contatos.css" />
+    <title>Contatos</title>
+</head>
+<body>
+    <form name="contato" action="" method="">
+        <fieldset>
+            <legend id="legenda"">Contato</legend>
+                <div class="campo" >
+                    <input type="text" placeholder="Seu nome..." maxlength="100" required/>
+                </div>
+                    <div class="campo">
+                        <input name="idade" type="number" placeholder="Sua idade"  required />
+                    </div>
+                    <div class="campo">
+                        <input type="email" placeholder="Seu e-mail: exemplo@.com.br" maxlength="50" required />
+                    </div>
+                    <div class="campo">
+                        <textarea name="comentario" rows="10">Seu comentário...</textarea>
+                    </div>
+            <legend id="legenda2">Área de interesses:</legend>
+                <div class="campo">
+                    <input name="administracao" type="checkbox" value="on" />
+                    <label for="adm">Administração</label>
+        
+                    <input name="financas" type="checkbox" value="on" />
+                    <label for="fin">Finanças</label>
+        
+                    <input name="marketing" type="checkbox" value="on" />
+                    <label for="mkt">Marketing</label>
+        
+                    <input name="tecnologo" type="checkbox" value="on" />
+                    <label for="tec">Tecnólogo</label>
+                </div>
+                <div>
+                    <input id="botao" type="submit" value="Enviar" />  
+                </div>
+        </fieldset>
+    </form>
+    <footer>
+        <a href="site.html" class="button" target="_blank">Home</a>
+        <a href="site.html" class="button" target="_blank">Biografia</a>
+        <a href="galeria.html" class="button" target="_blank">Fotos</a>
+        <a href="contatos.html" class="button" target="_blank">Contatos</a>
+    </footer>
+</body>
+</html>

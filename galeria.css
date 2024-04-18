@@ -1,0 +1,66 @@
+@font-face {
+    font-family: haruzake;
+    src: url(./fonts/Harukaze.otf);
+}
+body{
+    background-image: linear-gradient(darkgray, lightgray);
+}
+footer{
+    word-spacing: 150px;
+    margin: auto;
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    text-align: center;
+    font-family: haruzake;
+}
+a.button {
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: buttontext;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    box-shadow: 5px 5px 5px dimgray;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.img1{
+    width: 237px;
+    border: 10px solid black;
+    box-shadow: 10px 5px 5px dimgray;
+
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.img2{
+    width: 237px;
+    border: 10px solid black;
+    box-shadow: 10px 5px 5px dimgray;
+}
+.container3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.img3{
+    width: 300px;
+    border: 10px solid black;
+    box-shadow: 10px 5px 5px dimgray;
+}
